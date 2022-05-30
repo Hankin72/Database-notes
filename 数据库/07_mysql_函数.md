@@ -25,7 +25,7 @@
 
 ## MySQL 数学函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-数学函数.png)
+![](./imgs/函数-数学函数.png)
 
 > ```SQL
 > -- 数学函数 
@@ -48,7 +48,7 @@
 > 
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-数学函数2.png)
+![](./imgs/函数-数学函数2.png)
 
 > ```sql
 > -- 取模 
@@ -62,7 +62,7 @@
 > 
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-数学函数3.png)
+![](./imgs/函数-数学函数3.png)
 
 > ```sql
 > -- 取随机数, rand()默认返回0-1之间的随机数 
@@ -85,7 +85,7 @@
 
 ## MySQL 字符串函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-字符串函数1.png)
+![](./imgs/函数-字符串函数1.png)
 
 > ```sql
 > -- 字符串函数
@@ -115,7 +115,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-字符串函数2.png)
+![](./imgs/函数-字符串函数2.png)
 
 > ```sql
 > -- 5. 去除字符串左边空格 
@@ -144,7 +144,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-字符串函数3.png)
+![](./imgs/函数-字符串函数3.png)
 
 > ```sql
 > -- 10.返回字符串的后几个字符 RIGHT(str,len)
@@ -161,7 +161,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-字符串函数4.png)
+![](./imgs/函数-字符串函数4.png)
 
 > ```sql
 > -- 13. 字符串小写--> 大写 UPPER(str),UCASE(str)
@@ -179,7 +179,7 @@
 
 ## MySQL 日期函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数1.png)
+![](./imgs/函数-日期函数1.png)
 
 > ```sql
 > -- 日期函数 
@@ -202,13 +202,13 @@
 >
 > 日期的格式附表如下:
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/日期格式1.png)
+> ![](./imgs/日期格式1.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/日期格式2.png)
+> ![](./imgs/日期格式2.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/日期格式3.png)
+> ![](./imgs/日期格式3.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数2.png)
+![](./imgs/函数-日期函数2.png)
 
 > ```sql
 > -- 5.获取当前的时分秒 
@@ -229,7 +229,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数3.png)
+![](./imgs/函数-日期函数3.png)
 
 > ```sql
 > -- 9. 计算两个时分秒 之间的差别  计算一天内时间的差值(秒级 )
@@ -251,7 +251,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数4.png)
+![](./imgs/函数-日期函数4.png)
 
 > ```sql
 > -- 13.将日期进行加法-- 日期的跳转 
@@ -262,7 +262,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数5.png)
+![](./imgs/函数-日期函数5.png)
 
 > ```sql
 > -- 14. 从日期中获取想要的值   
@@ -282,9 +282,9 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数6.png)
+![](./imgs/函数-日期函数6.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数7.png)
+![](./imgs/函数-日期函数7.png)
 
 > ```sql
 > -- 17.根据日期获取年月日时分秒 
@@ -304,7 +304,7 @@
 > 
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-日期函数8.png)
+![](./imgs/函数-日期函数8.png)
 
 > ```sql
 > -- 18. 
@@ -320,7 +320,7 @@
 
 ## MySQL 控制流函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-控制流函数1.png)
+![](./imgs/函数-控制流函数1.png)
 
 >```SQL
 >-- 控制流函数 
@@ -344,7 +344,7 @@
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-控制流函数2.png)
+![](./imgs/函数-控制流函数2.png)
 
 ![]()
 
@@ -398,23 +398,23 @@
 
 ## MySQL 窗口函数/开窗函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数1.png)
+![](./imgs/函数-窗口函数1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数2.png)
+![](./imgs/函数-窗口函数2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数3.png)
+![](./imgs/函数-窗口函数3.png)
 
 ### 1.序号函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-序号函数1.png)
+![](./imgs/函数-窗口函数-序号函数1.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-序号函数2.png)
+> ![](./imgs/函数-窗口函数-序号函数2.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-序号函数3.png)
+> ![](./imgs/函数-窗口函数-序号函数3.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-序号函数4.png)
+> ![](./imgs/函数-窗口函数-序号函数4.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-序号函数5.png)
+> ![](./imgs/函数-窗口函数-序号函数5.png)
 
 >```sql
 >-- 对每个部门的员工按照薪资排序，并给出排名 
@@ -457,7 +457,7 @@
 
 ### 2.开窗聚合函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-开窗聚合1.png)
+![](./imgs/函数-窗口函数-开窗聚合1.png)
 
 > ```sql
 > -- 开窗聚合函数 
@@ -468,7 +468,7 @@
 > from employee;	
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/开窗聚合结果1.png)
+> ![](./imgs/开窗聚合结果1.png)
 >
 > ```sql
 > -- 去掉order by, 把分组所有数据相加，可以体现个人薪资占全部薪资的比例 
@@ -478,7 +478,7 @@
 > from employee;	
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/开窗聚合结果2.png)
+> ![](./imgs/开窗聚合结果2.png)
 >
 > ```sql
 > # 当前行 + 之前所有的行的数据 
@@ -540,7 +540,7 @@
 
 ### 3.分布函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-分布函数1.png)
+![](./imgs/函数-窗口函数-分布函数1.png)
 
 >```sql
 >-- 窗口函数-分布函数 
@@ -552,11 +552,11 @@
 >from employee;
 >```
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/分布函数结果1.png)
+>![](./imgs/分布函数结果1.png)
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-分布函数2.png)
+![](./imgs/函数-窗口函数-分布函数2.png)
 
 
 
@@ -580,13 +580,13 @@
 >
 >```
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/分布函数结果2.png)
+>![](./数据库/imgs/分布函数结果2.png)
 >
 >
 
 ### 4.前后函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-前后函数1.png)
+![](./imgs/函数-窗口函数-前后函数1.png)
 
 >```sql
 >-- LAG(expr[,N[,default]])的用法 --- 滞后
@@ -598,7 +598,7 @@
 >
 >```
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/前后函数结果1.png)
+>![](./imgs/前后函数结果1.png)
 >
 >```sql
 >-- LEAD(expr[,N[,default]])的用法  -- 向前 
@@ -610,13 +610,13 @@
 >
 >```
 >
->**![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/前后函数结果2.png)**
+>**![](./imgs/前后函数结果2.png)**
 
 
 
 ### 5.头尾函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-头尾函数1.png)
+![](./imgs/函数-窗口函数-头尾函数1.png)
 
 >```sql
 >-- 头尾函数 
@@ -631,13 +631,13 @@
 >
 >```
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/头尾函数结果1.png)
+>![](./imgs/头尾函数结果1.png)
 >
 >
 
 ### 6.其他函数 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-其他函数1.png)
+![](./imgs/函数-窗口函数-其他函数1.png)
 
 >```sql
 >-- 其他函数 
@@ -654,11 +654,11 @@
 >
 >```
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1其他函数结果1.png)
+>![](./imgs/1其他函数结果1.png)
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-窗口函数-其他函数2.png)
+![](./imgs/函数-窗口函数-其他函数2.png)
 
 >```sql
 >-- NTILE(N) 根据入职日期将每个部门的员工分成3组 
@@ -685,7 +685,7 @@
 >where t.nt =1;
 >```
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1其他函数结果2.png)
+>![](./imgs/1其他函数结果2.png)
 >
 >
 
