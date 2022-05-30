@@ -16,15 +16,15 @@
 
 ### **1.一对一关系**
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/一对一.png)
+![](./imgs/一对一.png)
 
 ### **2.一对多/多对一**
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/一对多.png)
+![](./imgs/一对多.png)
 
 ### **3.多对多关系**
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/多对多.png)
+![](./imgs/多对多.png)
 
 ---
 
@@ -32,17 +32,17 @@
 
 ## 外键约束
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束.png)
+![](./imgs/外键约束.png)
 
-  ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-特点.png)
+  ![](./imgs/外键约束-特点.png)
 
 
 
 ##  外键约束- 操作- 创建外键约束
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-创建1.png)
+![](./imgs/外键约束-创建1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-创建11.png)
+![](./imgs/外键约束-创建11.png)
 
 > ```sql
 > CREATE DATABASE if not EXISTS mydb3;
@@ -67,9 +67,9 @@
 > );
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-创建12.png)
+![](./imgs/外键约束-创建12.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-创建13.png)
+![](./imgs/外键约束-创建13.png)
 
 > ```sql
 > -- 创建部门表 -- 主表 --方式2
@@ -94,7 +94,7 @@
 
 ### 1.数据插入
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-数据插入.png)
+> ![](./imgs/外键约束-数据插入.png)
 
 ```sql
 -- 1.添加主表数据 
@@ -118,7 +118,7 @@ INSERT into emp VALUES('8', '天山童姥', 60, '1005'); -- 无法插入，报�
 
 ### 2.删除数据
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-删除数据.png)
+> ![](./imgs/外键约束-删除数据.png)
 
 > ```sql
 > -- 3. 删除数据
@@ -131,7 +131,7 @@ INSERT into emp VALUES('8', '天山童姥', 60, '1005'); -- 无法插入，报�
 
 ## 外键约束- 操作- 删除外键约束
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-删除约束.png)
+![](./imgs/外键约束-删除约束.png)
 
 > ```sql
 > -- 4，删除外键约束 
@@ -145,11 +145,11 @@ INSERT into emp VALUES('8', '天山童姥', 60, '1005'); -- 无法插入，报�
 
 ## 外键约束 --- 多对多关系
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-多对多关系.png)
+![](./imgs/外键约束-多对多关系.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-多对多-操作1.png)
+> ![](./imgs/外键约束-多对多-操作1.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外键约束-多对多-操作2.png)
+> ![](./imgs/外键约束-多对多-操作2.png)
 
 > ```sql
 > CREATE TABLE if not EXISTS student(
@@ -198,13 +198,13 @@ INSERT into emp VALUES('8', '天山童姥', 60, '1005'); -- 无法插入，报�
 
 # MySQL -多表操作-多表联合查询
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/多表联合查询.png) 
+![](./imgs/多表联合查询.png) 
 
 
 
 ###  多表查询 -- 准备查询数据
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/多表查询数据.png)
+![](./imgs/多表查询数据.png)
 
 > ```sql
 > -- 创建部门表
@@ -242,24 +242,24 @@ INSERT into emp VALUES('8', '天山童姥', 60, '1005'); -- 无法插入，报�
 
 > 笛卡尔积 得到的表，相当于两张表相乘，
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/交叉连接查询.png)
+![](./imgs/交叉连接查询.png)
 
 ```sql
 ```
 
 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/交叉连接查询-笛卡尔积结果.png)
+![](./imgs/交叉连接查询-笛卡尔积结果.png)
 
 
 
 ##  多表联合查询 - 内连接查询
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/内连接查询.png)
+![](./imgs/内连接查询.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/内连接查询2.png)
+> ![](./imgs/内连接查询2.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/内连接查询3.png)
+> ![](./imgs/内连接查询3.png)
 
 ```sql
 -- 内连接查询 inner join 相当于求两张表的交集
@@ -322,9 +322,9 @@ order by
 
 ## 多表联合查询 - 外连接查询
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外连接查询.png)
+![](./imgs/外连接查询.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/外连接查询2.png)
+> ![](./imgs/外连接查询2.png)
 
 ```sql
 -- 外连接查询 
@@ -365,9 +365,9 @@ SELECT * from dept3 RIGHT JOIN emp3 on dept3.deptno = emp3.dept_in;
 
 ## 多表联合查询 - 子查询
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询.png)
+![](./imgs/子查询.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询2.png)
+> ![](./imgs/子查询2.png)
 >
 > ```sql
 > -- 子查询 
@@ -420,9 +420,9 @@ SELECT * from dept3 RIGHT JOIN emp3 on dept3.deptno = emp3.dept_in;
 
 ## 多表联合查询 - 子查询关键字
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询关键字.png)
+![](./imgs/子查询关键字.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询关键字-all.png)
+![](./imgs/子查询关键字-all.png)
 
 > ```sql
 > -- 子查询-关键字 
@@ -438,7 +438,7 @@ SELECT * from dept3 RIGHT JOIN emp3 on dept3.deptno = emp3.dept_in;
 > 
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询-关键字-any-some.png)
+![](./imgs/子查询-关键字-any-some.png)
 
 > ```sql
 > -- 子查询关键字-any/some 
@@ -456,7 +456,7 @@ SELECT * from dept3 RIGHT JOIN emp3 on dept3.deptno = emp3.dept_in;
 > 	
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询关键字-in.png)
+![](./imgs/子查询关键字-in.png)
 
 > ```sql
 > -- 子查询关键字in
@@ -470,7 +470,7 @@ SELECT * from dept3 RIGHT JOIN emp3 on dept3.deptno = emp3.dept_in;
 > 	
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/子查询关键字-exists.png)
+![](./imgs/子查询关键字-exists.png)
 
 ```sql
 -- 子查询关键字- exists 
@@ -498,9 +498,9 @@ SELECT * from emp3 as a where dept_in in(SELECT deptno from dept3 as b where a.d
 
 ## 多表联合查询 - 自关联查询/自连接
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/自关联查询.png)
+![](./imgs/自关联查询.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/自关联查询2.png)
+![](./imgs/自关联查询2.png)
 
 > ```sql
 > -- 进行关联查询 
