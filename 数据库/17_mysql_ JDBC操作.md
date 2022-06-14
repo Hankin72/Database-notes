@@ -1,12 +1,12 @@
 # MySQL 的 JDBC操作
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-1.png)
+![](./imgs/0--jdbc-1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-2.png)
+![](./imgs/0--jdbc-2.png)
 
 ## JDBC 代码的实现
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-3.png)
+![](./imgs/0--jdbc-3.png)
 
 > ```sql
 > drop DATABASE if EXISTS mydb16;
@@ -62,23 +62,23 @@
 > 
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-5.png)
+> ![](./imgs/0--jdbc-5.png)
 
 ## jdbc结果集优化 
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-4.png)
+> ![](./imgs/0--jdbc-4.png)
 
 
 
 ## jdbc-增删改操作
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-6.png)
+![](./imgs/0--jdbc-6.png)
 
 
 
 ## jdbc -  SQL注入
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-sql注入.png)
+![](./imgs/0--jdbc-sql注入.png)
 
 >```sql
 >-- sql注入 
@@ -94,11 +94,11 @@
 >
 >
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-sql注入2.png)
+>![](./imgs/0--jdbc-sql注入2.png)
 >
 >
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--jdbc-sql注入3.png)
+> ![](./imgs/0--jdbc-sql注入3.png)
 
 
 
