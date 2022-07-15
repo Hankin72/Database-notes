@@ -2,13 +2,13 @@
 
 ## 存储引擎的概述
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0存储引擎.png)
+![](./imgs/0存储引擎.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0存储引擎-分类.png)
+![](./imgs/0存储引擎-分类.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0存储引擎-分类2.png)
+![](./imgs/0存储引擎-分类2.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0存储引擎2.png)
+> ![](./imgs/0存储引擎2.png)
 
 
 
@@ -16,7 +16,7 @@
 
 ## 存储引擎的操作
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0存储引擎-操作.png)
+![](./imgs/0存储引擎-操作.png)
 
 > ```sql
 > -- 查看当前数据库支持的存储引擎 
@@ -79,7 +79,7 @@
 > 
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0存储引擎-操作2.png)
+![](./imgs/0存储引擎-操作2.png)
 
 
 
