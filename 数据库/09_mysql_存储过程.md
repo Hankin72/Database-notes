@@ -1,15 +1,15 @@
 # MySQL的存储过程
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程.png)
+![](./imgs/存储过程.png)
 
 ## 存储过程-入门案例
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-入门案例.png)
+![](./imgs/存储过程-入门案例.png)
 
 > ```sql
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-入门案例2.png)
+> ![](./imgs/存储过程-入门案例2.png)
 
 
 
@@ -19,7 +19,7 @@
 
 ###  局部变量 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-变量定义.png)
+![](./imgs/存储过程-变量定义.png)
 
 > ```sql
 > delimiter $$
@@ -36,9 +36,9 @@
 > 
 > ```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-定义变量2.png)
+![](./imgs/存储过程-定义变量2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-定义变量3.png)
+![](./imgs/存储过程-定义变量3.png)
 
 > ```sql
 > delimiter $$
@@ -57,7 +57,7 @@
 
 ### 用户变量 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-变量定义2.png)
+![](./imgs/存储过程-变量定义2.png)
 
 > ```sql
 > -- 用户变量 
@@ -81,9 +81,9 @@
 
 ### **系统变量** 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-系统变量.png)
+![](./imgs/存储过程-系统变量.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-系统变量2.png)
+![](./imgs/存储过程-系统变量2.png)
 
 > ```sql
 > use mydb7_procedure;
@@ -99,7 +99,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-系统变量3.png)
+![](./imgs/存储过程-系统变量3.png)
 
 > ```sql
 > 
@@ -124,7 +124,7 @@
 
 ### 传参-in
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-参数传递1.png)
+![](./imgs/存储过程-参数传递1.png)
 
 > ```sql
 > -- 定义存储的过程
@@ -165,7 +165,7 @@
 
 ### 传递参数 - out
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-传递参数-out.png)
+![](./imgs/存储过程-传递参数-out.png)
 
 >```sql
 >-- ------------传递参数 - out -------------------- 
@@ -205,7 +205,7 @@
 
 ### 传递参数 - inout
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-参数传递inout.png)
+![](./imgs/存储过程-参数传递inout.png)
 
 >```sql
 >-- ------------传递参数 - inout -------------------- 
@@ -252,7 +252,7 @@
 
 ###  **判断 - 分支 - if** 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-判断1.png)
+![](./imgs/存储过程-流程控制-判断1.png)
 
 > ```sql
 > -- 存储过程 - if 
@@ -327,7 +327,7 @@
 
 ###  流程控制-判断-分支-case
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-判断2.png)
+![](./imgs/存储过程-流程控制-判断2.png)
 
 > ```sql
 > -- 流程控制语句： case 
@@ -386,11 +386,11 @@
 
 ###  流程控制 - 循环 - while ... do -/ repeat...until... -/ loop 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-循环1.png)
+![](./imgs/存储过程-流程控制-循环1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-循环2.png)
+![](./imgs/存储过程-流程控制-循环2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-循环3.png)
+![](./imgs/存储过程-流程控制-循环3.png)
 
 >  ```sql
 >  -- 创建测试表 
@@ -485,7 +485,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-循环4.png)
+![](./imgs/存储过程-流程控制-循环4.png)
 
 > ```sql
 > 
@@ -508,7 +508,7 @@
 >
 > 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-流程控制-循环5.png)
+![](./imgs/存储过程-流程控制-循环5.png)
 
 > ```sql
 > -- 循环 loop 
@@ -542,9 +542,9 @@
 
 ##  MySQL存储过程-游标
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-游标.png)
+![](./imgs/存储过程-游标.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-游标2.png)
+![](./imgs/存储过程-游标2.png)
 
 > ```sql
 > -- 操作游标 
@@ -588,11 +588,11 @@
 
 ## MySQL存储过程-异常处理 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-异常处理.png)
+![](./imgs/存储过程-异常处理.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-异常处理2.png)
+![](./imgs/存储过程-异常处理2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-异常处理3.png)
+![](./imgs/存储过程-异常处理3.png)
 
 > ```sql
 >  
@@ -673,9 +673,9 @@
 
 ## 练习
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-练习.png)
+![](./imgs/存储过程-练习.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储过程-练习2.png)
+![](./imgs/存储过程-练习2.png)
 
 ![]()
 
