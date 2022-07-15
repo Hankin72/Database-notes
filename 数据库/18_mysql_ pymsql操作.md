@@ -2,7 +2,7 @@
 
 ## 使用
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--pymsql.png)
+![](./imgs/0--pymsql.png)
 
 >```python
 >import pymysql
@@ -41,7 +41,7 @@
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0--pymsql-2.png)
+![](./imgs/0--pymsql-2.png)
 
 >```python
 >import pymysql
