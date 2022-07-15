@@ -1,10 +1,10 @@
 # MySQL 函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数1.png)
+![](./imgs/函数1.png)
 
 ## MySQL 聚合函数
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-聚合函数.png)![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/函数-聚合函数2.png)
+![](./imgs/函数-聚合函数.png)![](./imgs/函数-聚合函数2.png)
 
 > ```sql
 > --  将所有员工的名字合并成一行 
