@@ -1,12 +1,12 @@
 # MySQL 的视图
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/视图.png)
+![](./imgs/视图.png)
 
 ##  MySQL 视图 - 创建视图
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/视图-创建视图.png)
+![](./imgs/视图-创建视图.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/视图的创建.png)
+![](./imgs/视图的创建.png)
 
 > ```sql
 > -- 创建视图 
@@ -30,7 +30,7 @@
 
 ## 修改视图
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/视图的修改.png)
+![](./imgs/视图的修改.png)
 
 > ```sql
 > ALTER view view_emp
@@ -46,7 +46,7 @@
 
 ## 更新视图
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/视图的更新1.png)
+![](./imgs/视图的更新1.png)
 
 > ```sql
 > # 这里已经将原数据修改了 
@@ -85,7 +85,7 @@
 
 ## 重命名/删除视图
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/视图的其他操作.png)
+![](./imgs/视图的其他操作.png)
 
 > ```SQL
 > # 重命名 
