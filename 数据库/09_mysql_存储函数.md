@@ -1,8 +1,8 @@
 # MySQL的存储函数 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储函数.png)
+![](./imgs/存储函数.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/存储函数2.png)
+![](./imgs/存储函数2.png)
 
 > ```sql
 > CREATE DATABASE if not EXISTS mydb9;
