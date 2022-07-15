@@ -1,22 +1,22 @@
 # MySQL-索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引.png)
+![](./imgs/1索引.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引1.png)
+![](./imgs/1索引1.png)
 
 > hash 索引，相当一种映射的函数，
 >
 > hash冲突：
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-B+索引.png)
+![](./imgs/1索引-B+索引.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-分类.png)
+![](./imgs/1索引-分类.png)
 
 ##  索引的操作 - 创建索引 - 单列索引 - 普通索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-单列索引-普通索引.png)
+![](./imgs/1索引-单列索引-普通索引.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-操作普通索引.png)
+> ![](./imgs/1索引-操作普通索引.png)
 >
 > ```sql
 > -- 方式1: 创建表的时候直接指定 
@@ -46,11 +46,11 @@
 >
 > 
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-普通索引-查看索引.png)
+> ![](./imgs/1索引-普通索引-查看索引.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-普通索引-查看索引2.png)
+> ![](./imgs/1索引-普通索引-查看索引2.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-普通索引-查看索引3.png)
+> ![](./imgs/1索引-普通索引-查看索引3.png)
 >
 > ```sql
 > -- 1、查看数据库所有的索引
@@ -66,15 +66,15 @@
 >
 > 
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引-普通索引-删除索引.png)
+> ![](./imgs/1索引-普通索引-删除索引.png)
 
 
 
 ##  索引的操作 - 创建索引 - 单列索引 - 唯一索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1单列索引-唯一索引1.png)
+![](./imgs/1单列索引-唯一索引1.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1单列索引-创建唯一索引.png)
+> ![](./imgs/1单列索引-创建唯一索引.png)
 >
 > ```sql
 > -- 唯一索引 
@@ -103,13 +103,13 @@
 > ```sql
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1单列索引-删除唯一索引.png)
+> ![](./imgs/1单列索引-删除唯一索引.png)
 
 
 
 ##  索引的操作 - 创建索引 - 单列索引 - 主键索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1单列索引-主键索引.png)
+![](./imgs/1单列索引-主键索引.png)
 
 > ```sql
 > -- 创建主键，自动添加主键索引-不可以为null， 是一种特殊的唯一索引
@@ -123,7 +123,7 @@
 
 ## 索引的操作 - 创建索引 - 组合索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1组合索引.png)
+![](./imgs/1组合索引.png)
 
 > ```sql
 > --  组合索引，既可以是普通索引，也可以是唯一索引 
@@ -144,25 +144,25 @@
 > 
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1组合索引2.png)
+> ![](./imgs/1组合索引2.png)
 
 
 
 ## 索引的操作 - 创建索引 - 全文索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引.png)
+![](./imgs/1全文索引.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引2.png)
+![](./imgs/1全文索引2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引3.png)
+![](./imgs/1全文索引3.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引-操作.png)
+> ![](./imgs/1全文索引-操作.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引-操作2.png)
+> ![](./imgs/1全文索引-操作2.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引-操作3.png)
+> ![](./imgs/1全文索引-操作3.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1全文索引-操作4.png)
+> ![](./imgs/1全文索引-操作4.png)
 >
 > ```sql
 > -- 使用全文索引 
@@ -184,11 +184,11 @@
 
 ## 索引的操作 - 创建索引 - 空间索引
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1空间索引.png)
+![](./imgs/1空间索引.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1空间索引2.png)
+![](./imgs/1空间索引2.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1空间索引3.png)
+> ![](./imgs/1空间索引3.png)
 >
 > ```sql
 > CREATE TABLE if not EXISTS shop_info(
@@ -208,39 +208,39 @@
 
 ## 索引的原理
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理.png)
+![](./imgs/1索引的原理.png)
 
 ##  索引的原理 - 相关的算法
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理2.png) 
+![](./imgs/1索引的原理2.png) 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理3.png)
+![](./imgs/1索引的原理3.png)
 
 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理4.png)
+![](./imgs/1索引的原理4.png)
 
 ## 大部分数据库系统都采用的是B+TREE
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理5.png)
+![](./imgs/1索引的原理5.png)
 
 > B + TREE 
 >
 > 叶子节点为双向链表
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理6.png)
+![](./imgs/1索引的原理6.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/1索引的原理7.png)
+![](./imgs/1索引的原理7.png)
 
 ![]()
 
 ## 索引的特点
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/2索引的特点.png)
+![](./imgs/2索引的特点.png)
 
 ## 索引---使用原则
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/2索引的创建原则.png)
+![](./imgs/2索引的创建原则.png)
 
 
 
