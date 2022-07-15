@@ -2,19 +2,19 @@
 
 ---
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务.png)
+![](./imgs/00事务.png)
 
 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务2.png)
+![](./imgs/00事务2.png)
 
 ## 事务操作
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务操作.png)
+![](./imgs/00事务操作.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务操作1.png)
+![](./imgs/00事务操作1.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务操作2.png)
+> ![](./imgs/00事务操作2.png)
 >
 > ```sql
 > CREATE DATABASE if not EXISTS mydb2_transaction;
@@ -56,7 +56,7 @@
 
 ## 事务的特性
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务的特性.png)
+![](./imgs/00事务的特性.png)
 
 > ACID:
 >
@@ -72,9 +72,9 @@
 
 ## 事务 -- 隔离级别
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务的隔离级别.png)
+![](./imgs/00事务的隔离级别.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务的隔离级别2.png)
+![](./imgs/00事务的隔离级别2.png)
 
 > **事务的隔离级别**：
 >
@@ -88,15 +88,15 @@
 >
 > 可序列化：效率较低
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务的隔离级别3.png)
+![](./imgs/00事务的隔离级别3.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务的隔离级别4.png)
+> ![](./imgs/00事务的隔离级别4.png)
 >
 > 
 
 ## 事务的隔离级别 -- 操作
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/00事务的隔离级别5.png)
+![](./imgs/00事务的隔离级别5.png)
 
 > ```sql
 > 	set autocommint = 0;  # 禁止自动提交 
