@@ -1,20 +1,20 @@
 # MySQL 的优化 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/111优化.png)
+![](./imgs/111优化.png)
 
 ## 优化 - 查看SQL执行效率
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0查看sql执行效率.png)
+![](./imgs/0查看sql执行效率.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0查看sql执行效率2.png)
+> ![](./imgs/0查看sql执行效率2.png)
 >
 > 
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0查看sql执行效率3.png)
+> ![](./imgs/0查看sql执行效率3.png)
 >
 > 
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0查看sql执行效率4.png)
+> ![](./imgs/0查看sql执行效率4.png)
 >
 > ![]()
 
@@ -22,11 +22,11 @@
 
 ## 定位低效率执行 SQL 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0定位低效率sql.png)
+![](./imgs/0定位低效率sql.png)
 
 ----
 
-![0定位低效率sql-慢查询日志](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0定位低效率sql-慢查询日志.png)
+![0定位低效率sql-慢查询日志](./imgs/0定位低效率sql-慢查询日志.png)
 
 > ```sql
 > -- 定位低效率执行sql - 慢查询日志 
@@ -50,7 +50,7 @@
 
 ----
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0定位低效率sql-show_processlist.png)
+![](./imgs/0定位低效率sql-show_processlist.png)
 
 > ```sql
 > -- 通过show PROCESSLIST 查看当前客户端连接服务器的线程执行状态信息 
@@ -63,11 +63,11 @@
 
 ## explain 分析执行计划
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0explain分析执行计划.png)
+![](./imgs/0explain分析执行计划.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0explain分析执行计划1.png)
+![](./imgs/0explain分析执行计划1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0explain分析执行计划3.png)
+![](./imgs/0explain分析执行计划3.png)
 
 >![]()
 >
@@ -88,29 +88,29 @@
 
 ## explain 分析执行计划 - Explain 之 id
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain 分析执行计划id.png)
+![](./imgs/0_explain 分析执行计划id.png)
 
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain 分析执行计划id2.png)
+>![](./imgs/0_explain 分析执行计划id2.png)
 >
 >
 
 ## explain 分析执行计划 - Explain 之  select_type
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0explain 分析执行计划-Explain_select_type.png)
+![](./imgs/0explain 分析执行计划-Explain_select_type.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0explain 分析执行计划-Explain_select_type1.png)
+> ![](./imgs/0explain 分析执行计划-Explain_select_type1.png)
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0explain 分析执行计划-Explain_select_type2.png)
+> ![](./imgs/0explain 分析执行计划-Explain_select_type2.png)
 
 ## explain 分析执行计划-Explain之type
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain 分析执行计划-Explain_select_type.png)
+![](./imgs/0_explain 分析执行计划-Explain_select_type.png)
 
 
 
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain 分析执行计划-Explain_select_type_1.png)
+>![](./imgs/0_explain 分析执行计划-Explain_select_type_1.png)
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain 分析执行计划-Explain_select_type_2.png)
+>![](./imgs/0_explain 分析执行计划-Explain_select_type_2.png)
 >
 >```sql
 >-- const 
@@ -178,17 +178,17 @@
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain 分析执行计划-Explain_select_type.png)
+![](./imgs/0_explain 分析执行计划-Explain_select_type.png)
 
 
 
 ##  explain分析执行计划-其他指标字段
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain分析执行计划-其他指标字段.png)
+![](./imgs/0_explain分析执行计划-其他指标字段.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain分析执行计划-其他指标字段_1.png)
+![](./imgs/0_explain分析执行计划-其他指标字段_1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0_explain分析执行计划-其他指标字段_2.png)
+![](./imgs/0_explain分析执行计划-其他指标字段_2.png)
 
 > ```sql
 > EXPLAIN SELECT * from emp order by ename;  -- Using filesort
@@ -206,13 +206,13 @@
 
 ## show profile 分析 SQL
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-show_profile.png)
+![](./imgs/0-show_profile.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-show_profile_2.png)
+![](./imgs/0-show_profile_2.png)
 
 ![]()
 
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-show_profiles.png)
+>![](./imgs/0-show_profiles.png)
 >
 >```sql
 >
@@ -235,7 +235,7 @@
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-show_profile_3.png)
+![](./imgs/0-show_profile_3.png)
 
 >```sql
 >SHOW PROFILE for QUERY 21;
@@ -243,37 +243,37 @@
 >
 >
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-show_profiles_2.png)
+![](./imgs/0-show_profiles_2.png)
 
 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-show_profiles-cpu.png)
+![](./imgs/0-show_profiles-cpu.png)
 
 ## trace 分析优化器执行计划 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-trace分析.png)
+![](./imgs/0-trace分析.png)
 
 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-trace分析-1.png)
+![](./imgs/0-trace分析-1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-trace分析-2.png)
+![](./imgs/0-trace分析-2.png)
 
 
 
 ## MySQL优化 - 索引优化
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化.png)
+![](./imgs/0-索引优化.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-1.png)
+![](./imgs/0-索引优化-1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-2.png)
+![](./imgs/0-索引优化-2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-3.png)
+![](./imgs/0-索引优化-3.png)
 
 ### 1. ------
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-6.png)
+> ![](./imgs/0-索引优化-6.png)
 >
 > ```sql
 > 
@@ -289,7 +289,7 @@
 
 > 
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-7.png)
+> ![](./imgs/0-索引优化-7.png)
 >
 > ```sql
 > -- 最左前缀法则
@@ -308,7 +308,7 @@
 
 ### 3. ------
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-8.png)
+> ![](./imgs/0-索引优化-8.png)
 >
 > ```sql
 > -- 范围查询右边的列，不能使用索引 
@@ -324,7 +324,7 @@
 > 
 > ```
 
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-9.png) 
+>![](./imgs/0-索引优化-9.png) 
 >
 >```sql
 >-- 尽量使用覆盖索引，避免使用 select * 
@@ -345,7 +345,7 @@
 >
 >
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-索引优化-10.png)
+>![](./imgs/0-索引优化-10.png)
 >
 >```sql
 >explain select name from tb_seller where name = '黑马程序员' or createtime = '2088-01-01 12:00:00';
@@ -376,9 +376,9 @@
 
 ### 1.sql优化 - 大批量插入优化
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化.png)
+![](./imgs/0-sql优化.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化-1.png)
+![](./imgs/0-sql优化-1.png)
 
 > ```sql
 > -- 1.首先，检查一个全局系统变量‘local_infile’的状态。 
@@ -402,11 +402,11 @@
 >
 > 
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化-11.png)
+> ![](./imgs/0-sql优化-11.png)
 
 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化-2.png)
+![](./imgs/0-sql优化-2.png)
 
 > ```sql
 > -- 关闭唯一性校验
@@ -422,11 +422,11 @@
 
 ### 2.优化insert语句
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化-3.png)
+![](./imgs/0-sql优化-3.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化-4.png)
+![](./imgs/0-sql优化-4.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-sql优化-5.png)
+![](./imgs/0-sql优化-5.png)
 
 
 
@@ -436,15 +436,15 @@
 
 ### 3.order-by优化
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-order-by优化-1.png)
+![](./imgs/0-order-by优化-1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-order-by优化-2.png)
+![](./imgs/0-order-by优化-2.png)
 
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-order-by优化-3.png) 
+>![](./imgs/0-order-by优化-3.png) 
 >
 >![]()
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-order-by优化-4.png)
+![](./imgs/0-order-by优化-4.png)
 
 > ```sql
 > show VARIABLES like 'max_length_for_sort_data';
@@ -460,9 +460,9 @@
 
 ### 4.子查询优化
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-子查询优化-1.png)
+![](./imgs/0-子查询优化-1.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-子查询优化-2.png)
+![](./imgs/0-子查询优化-2.png)
 
 
 
@@ -470,15 +470,15 @@
 
 ### 5. 优化limit查询 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-limit优化-1.png)
+![](./imgs/0-limit优化-1.png)
 
 >1.
 >
->![0-limit优化-2](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-limit优化-2.png)
+>![0-limit优化-2](./imgs/0-limit优化-2.png)
 >
 >2.
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/0-limit优化-3.png)
+>![](./imgs/0-limit优化-3.png)
 >
 >
 
