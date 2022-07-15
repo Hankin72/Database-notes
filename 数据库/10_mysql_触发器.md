@@ -1,16 +1,16 @@
 # MySQL触发器
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器.png)
+![](./imgs/触发器.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器2.png)
+![](./imgs/触发器2.png)
 
 ##  操作-创建触发器
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-创建触发器.png)
+![](./imgs/触发器-创建触发器.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-创建触发器2.png)
+![](./数据库/imgs/触发器-创建触发器2.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-创建触发器3.png)
+![](./数据库/imgs/触发器-创建触发器3.png)
 
 > ```sql
 > -- 如果触发器存在，则先删除
@@ -49,7 +49,7 @@
 
 ## 操作- NEW 与 OLD
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-操作new.png)
+![](./imgs/触发器-操作new.png)
 
 ![]()
 
@@ -109,15 +109,15 @@
 
 ## 触发器的其他操作
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-其他操作.png)
+![](./imgs/触发器-其他操作.png)
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-查看触发器.png)
+![](./imgs/触发器-查看触发器.png)
 
 
 
 ## 触发器-注意事项
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/触发器-注意事项.png)
+![](./imgs/触发器-注意事项.png)
 
 
 
