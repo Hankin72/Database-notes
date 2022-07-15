@@ -1,25 +1,25 @@
 # MySQL的日志
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000日志.png)
+![](./imgs/000日志.png)
 
 ## 错误日志 
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000错误日志.png)
+![](./imgs/000错误日志.png)
 
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000错误日志2.png)
+> ![](./imgs/000错误日志2.png)
 
 
 
 ## 二进制日志
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000二进制日志.png)
+![](./imgs/000二进制日志.png)
 
 >```sql
 >
 >
 >```
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000二进制日志2.png)
+![](./imgs/000二进制日志2.png)
 
 > ```sql
 > 
@@ -59,7 +59,7 @@
 
 ## 查询日志
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000查询日志.png)
+![](./imgs/000查询日志.png)
 
 >```sql
 >-- 查看mysql 是否开启了查询日志 
@@ -81,7 +81,7 @@
 
 ## 慢查询日志
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000慢查询日志.png)
+![](./imgs/000慢查询日志.png)
 
 > ```sql
 > -- 慢日志查询 
@@ -101,7 +101,7 @@
 > 
 > ```
 >
-> ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/000慢查询日志2.png)
+> ![](./imgs/000慢查询日志2.png)
 
 
 
