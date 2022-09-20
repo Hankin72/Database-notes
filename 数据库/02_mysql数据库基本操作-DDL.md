@@ -76,19 +76,19 @@ create table if not exists student(
 
 >- *数值类型*
 >
->![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/数值类型.png)
+>![](imgs/数值类型.png)
 >
 >`decimal(M,D) --> decimal(5,2) #有效位5， 保留2位小数`
 >
 >
 
 >-  *日期和时间类型*
->- ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/日期类型.png)
+>- ![](imgs/日期类型.png)
 >
 >
 
 >- *字符串类型*
->- ![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/字符串类型.png)
+>- ![](imgs/字符串类型.png)
 >- 用法`varchar(20)`，最多存20个，填写不超过20字符，也不会浪费空间， 有多少存多少
 
 
