@@ -88,7 +88,7 @@
 
 > select 筛选查询的--字段（列）， from后面是要查询的表的名字
 
-![](/Users/guohaojin/Desktop/春招-招聘-计算基础总结/数据库/imgs/简单查询.png)
+![](imgs/简单查询.png)
 
 ```sql
 
